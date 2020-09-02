@@ -5,7 +5,7 @@
 #SBATCH --error=err_slurm.txt
 #SBATCH --open-mode=append # append required to avoid different process overwrite the same error file
 #SBATCH --ntasks=1
-#SBATCH --mem=25000   # memory in Mb
+#SBATCH --mem=MaxMemPerNode   # memory in Mb
 #SBATCH -t 04:00:00  # time requested in hour:minute:second
 
 # call: sbatch extract_features_launcher.sh <start_time> <stop_time> <unique_id> <target_node> <aggregation_minutes> <write_file_dir>

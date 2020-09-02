@@ -1,0 +1,45 @@
+------- extract_features.py -------
+unique_id:  10-01-2020_22-00-00
+start_time:  10-01-2020 22:00:00
+stop_time:  11-01-2020 02:00:00
+file_to_write:  ./raw_data/r089c13s04
+aggregation_minutes:  5
+target_node:  r089c13s04
+
+creating examon connection..
+<urllib.request.Request object at 0x2b31fceb2048>
+extracting data..
+
+00:10:20 - extract_data_from_examon_plugins: Start
+00:10:20 - extract_data_from_plugin: Start
+plugin_name: ganglia_pub
+node: r089c13s04
+t_start: 10-01-2020 22:00:00
+t_stop: 11-01-2020 02:00:00
+00:10:34 - extract_data_from_plugin: data extracted from Examon
+00:10:35 - extract_data_from_plugin: microseconds and 5 seconds alignment done
+00:10:35 - extract_data_from_plugin: features compacted
+00:10:36 - extract_data_from_plugin: numerical features extracted
+00:10:36 - extract_data_from_plugin: categorical features extracted
+00:10:38 - extract_data_from_plugin: categorical data parsed
+00:10:49 - extract_data_from_plugin: numerical data parsed
+00:10:49 - extract_data_from_plugin: merged data on timestamp
+00:10:49 - extract_data_from_examon_plugins: Ganglia data extracted
+00:10:49 - extract_data_from_plugin: Start
+plugin_name: confluent_pub
+node: r089c13s04
+t_start: 10-01-2020 22:00:00
+t_stop: 11-01-2020 02:00:00
+00:11:04 - extract_data_from_plugin: data extracted from Examon
+00:11:12 - extract_data_from_plugin: microseconds and 5 seconds alignment done
+00:11:13 - extract_data_from_plugin: features compacted
+00:11:13 - extract_data_from_plugin: numerical features extracted
+00:11:13 - extract_data_from_plugin: categorical features extracted
+00:11:17 - extract_data_from_plugin: categorical data parsed
+00:11:28 - extract_data_from_plugin: numerical data parsed
+00:11:28 - extract_data_from_plugin: merged data on timestamp
+00:11:28 - extract_data_from_examon_plugins: Confluent data extracted
+00:11:28 - extract_data_from_examon_plugins: Merged Ganglia and Confluent data
+
+saving result on csv file..
+--- DONE --- 

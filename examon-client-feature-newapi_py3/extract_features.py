@@ -14,7 +14,7 @@ from my_lib import features_extraction as fe
 t_start = '18-10-2019 10:00:00' if len(sys.argv) < 2 else sys.argv[1].replace("_", " ")
 t_stop = '18-10-2019 11:00:00' if len(sys.argv) < 3 else sys.argv[2].replace("_", " ")
 unique_id = t_start.replace(' ', '_') if len(sys.argv) < 4 else str(sys.argv[3])                                   
-target_node = 'r089c13s04' if len(sys.argv) < 5 else sys.argv[4]
+target_node = 'r071c14s04' if len(sys.argv) < 5 else sys.argv[4]
 aggregation_minutes = 5 if len(sys.argv) < 6 else int(sys.argv[5])
 write_path = './raw_data/{}'.format(target_node) if len(sys.argv) < 7 else sys.argv[6]
 
