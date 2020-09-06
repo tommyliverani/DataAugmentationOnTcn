@@ -32,8 +32,8 @@ aggregation_minutes = "5" if len(sys.argv) < 6 else sys.argv[5]
 
 # Fixed parameters
 write_files_dir = "./raw_data/{}".format(target_node)
-t_start = parse('18-10-2019 10:00:00', dayfirst=True)
-t_end = parse('11-01-2020 06:36:00', dayfirst=True)
+t_start = parse('1-10-2019 10:00:00', dayfirst=True)
+t_end = parse('21-10-2020 10:00:00', dayfirst=True)
 
 # Compute list of start time extraction for parallel extraction
 timestamps = []
