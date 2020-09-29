@@ -1,0 +1,15 @@
+header=$(cat $tmp | grep "timestamp" | head -n 1)
+#!/bin/bash
+
+# Call: raw_data_merging.sh <node>
+
+cd "${node}"
+
+echo $files | while read file
+do
+    cat $file >> $tmp
+done
+
+echo $header > $out_file
+rm $tmp
+mv $out_file ../$out_file
