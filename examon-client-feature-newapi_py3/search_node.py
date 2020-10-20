@@ -12,6 +12,7 @@ sq = eu.create_examon_connection()
 t_start='18-10-2019 10:00:00'
 t_stop='11-01-2020 06:36:00'
 
+
 # Find common Marconi's nodes from ganglia, confluent and nagios
 ganglia_nodes = eu.get_nodes_from_plugin(sq, 'ganglia_pub')
 print("ganglia nodes extracted", flush=True)
