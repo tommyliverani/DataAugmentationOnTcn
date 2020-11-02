@@ -23,17 +23,16 @@ def check_file_in_dir(unique_id, target_node) :
 
 # Function call parameters
 days = 0 if len(sys.argv) < 2 else int(sys.argv[1])
-hours = 0 if len(sys.argv) < 3 else int(sys.argv[2])
-minutes = 10 if len(sys.argv) < 4 else int(sys.argv[3])
+hours = 3 if len(sys.argv) < 3 else int(sys.argv[2])
+minutes = 0 if len(sys.argv) < 4 else int(sys.argv[3])
 
-target_node = 'r000u25s03' if len(sys.argv) < 5 else sys.argv[4]
+target_node = 'r076c08s03' if len(sys.argv) < 5 else sys.argv[4]
 aggregation_minutes = "5" if len(sys.argv) < 6 else sys.argv[5]
-
 
 # Fixed parameters
 write_files_dir = "./raw_data/{}".format(target_node)
 t_start = parse('18-10-2019 10:00:00', dayfirst=True)
-t_end = parse('18-10-2019 10:00:10', dayfirst=True)
+t_end = parse('11-11-2019 10:00:00', dayfirst=True)
 
 # Compute list of start time extraction for parallel extraction
 timestamps = []

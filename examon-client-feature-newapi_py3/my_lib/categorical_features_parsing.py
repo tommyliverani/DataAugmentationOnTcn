@@ -33,6 +33,9 @@ def one_hot_encoding_categorical_data(data, aggregation_minutes=5):
 
 def allign_sampling_to_minutes(data, aggregation_minutes=5):
     data = data.copy()
+    print(data.shape)
+    print("-----  -------   --------  ------- --------- -------- ------- -----")
+    print(data)
     tzinfo = data.iloc[0]['timestamp'].tz
     df = pd.DataFrame(data=None, columns=data.columns)
     for index in data.index:

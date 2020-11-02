@@ -1,0 +1,176 @@
+------- extract_features.py -------
+unique_id:  21-10-2019_07-00-00
+start_time:  21-10-2019 07:00:00
+stop_time:  21-10-2019 11:00:00
+file_to_write:  ./raw_data/r169c03s01
+aggregation_minutes:  5
+target_node:  r169c03s01
+
+creating examon connection..
+<urllib.request.Request object at 0x2b6e1310e0f0>
+extracting data..
+
+20:16:07 - extract_data_from_examon_plugins: Start
+20:16:07 - extract_data_from_plugin: Start
+plugin_name: ganglia_pub
+node: r169c03s01
+t_start: 21-10-2019 07:00:00
+t_stop: 21-10-2019 11:00:00
+20:16:17 - extract_data_from_plugin: data extracted from Examon
+20:16:18 - extract_data_from_plugin: microseconds and 5 seconds alignment done
+20:16:18 - extract_data_from_plugin: features compacted
+20:16:18 - extract_data_from_plugin: numerical features extracted
+20:16:18 - extract_data_from_plugin: categorical features extracted
+(146, 5)
+-----  -------   --------  ------- --------- -------- ------- -----
+                    timestamp gexec  ... os_name                  os_release
+0   2019-10-21 10:20:45+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+1   2019-10-21 10:20:55+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+2   2019-10-21 10:21:25+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+3   2019-10-21 10:21:30+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+4   2019-10-21 10:21:40+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+5   2019-10-21 10:22:00+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+6   2019-10-21 10:22:20+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+7   2019-10-21 10:22:25+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+8   2019-10-21 10:22:40+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+9   2019-10-21 10:23:00+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+10  2019-10-21 10:23:10+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+11  2019-10-21 10:23:20+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+12  2019-10-21 10:23:40+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+13  2019-10-21 10:23:50+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+14  2019-10-21 10:23:55+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+15  2019-10-21 10:24:00+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+16  2019-10-21 10:24:20+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+17  2019-10-21 10:24:40+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+18  2019-10-21 10:25:00+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+19  2019-10-21 10:25:20+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+20  2019-10-21 10:25:25+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+21  2019-10-21 10:25:40+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+22  2019-10-21 10:26:10+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+23  2019-10-21 10:26:15+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+24  2019-10-21 10:26:30+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+25  2019-10-21 10:26:40+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+26  2019-10-21 10:26:45+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+27  2019-10-21 10:26:55+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+28  2019-10-21 10:27:10+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+29  2019-10-21 10:27:35+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+..                        ...   ...  ...     ...                         ...
+116 2019-10-21 10:48:15+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+117 2019-10-21 10:48:20+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+118 2019-10-21 10:48:40+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+119 2019-10-21 10:49:00+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+120 2019-10-21 10:49:20+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+121 2019-10-21 10:49:25+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+122 2019-10-21 10:49:40+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+123 2019-10-21 10:50:10+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+124 2019-10-21 10:50:20+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+125 2019-10-21 10:50:35+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+126 2019-10-21 10:50:40+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+127 2019-10-21 10:50:55+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+128 2019-10-21 10:51:00+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+129 2019-10-21 10:51:40+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+130 2019-10-21 10:52:05+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+131 2019-10-21 10:52:25+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+132 2019-10-21 10:52:45+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+133 2019-10-21 10:53:05+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+134 2019-10-21 10:53:10+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+135 2019-10-21 10:53:30+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+136 2019-10-21 10:53:40+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+137 2019-10-21 10:53:50+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+138 2019-10-21 10:54:10+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+139 2019-10-21 10:54:20+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+140 2019-10-21 10:54:40+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+141 2019-10-21 10:54:55+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+142 2019-10-21 10:55:00+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+143 2019-10-21 10:55:10+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+144 2019-10-21 10:55:20+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+145 2019-10-21 10:55:40+02:00   OFF  ...   Linux  3.10.0-514.26.2.el7.x86_64
+
+[146 rows x 5 columns]
+20:16:19 - extract_data_from_plugin: categorical data parsed
+20:16:21 - extract_data_from_plugin: numerical data parsed
+20:16:21 - extract_data_from_plugin: merged data on timestamp
+20:16:21 - extract_data_from_examon_plugins: Ganglia data extracted
+20:16:21 - extract_data_from_plugin: Start
+plugin_name: confluent_pub
+node: r169c03s01
+t_start: 21-10-2019 07:00:00
+t_stop: 21-10-2019 11:00:00
+20:16:32 - extract_data_from_plugin: data extracted from Examon
+20:16:33 - extract_data_from_plugin: microseconds and 5 seconds alignment done
+20:16:33 - extract_data_from_plugin: features compacted
+20:16:34 - extract_data_from_plugin: numerical features extracted
+20:16:34 - extract_data_from_plugin: categorical features extracted
+(60, 33)
+-----  -------   --------  ------- --------- -------- ------- -----
+                   timestamp CPU_1_Overtemp  ... Power_Supply_2 SysBrd_Vol_Fault
+0  2019-10-21 07:03:00+02:00             Ok  ...        Present               Ok
+1  2019-10-21 07:07:00+02:00             Ok  ...        Present               Ok
+2  2019-10-21 07:11:00+02:00             Ok  ...        Present               Ok
+3  2019-10-21 07:15:00+02:00             Ok  ...        Present               Ok
+4  2019-10-21 07:19:00+02:00             Ok  ...        Present               Ok
+5  2019-10-21 07:23:00+02:00             Ok  ...        Present               Ok
+6  2019-10-21 07:27:00+02:00             Ok  ...        Present               Ok
+7  2019-10-21 07:31:00+02:00             Ok  ...        Present               Ok
+8  2019-10-21 07:35:00+02:00             Ok  ...        Present               Ok
+9  2019-10-21 07:39:00+02:00             Ok  ...        Present               Ok
+10 2019-10-21 07:43:00+02:00             Ok  ...        Present               Ok
+11 2019-10-21 07:47:00+02:00             Ok  ...        Present               Ok
+12 2019-10-21 07:51:00+02:00             Ok  ...        Present               Ok
+13 2019-10-21 07:55:00+02:00             Ok  ...        Present               Ok
+14 2019-10-21 07:59:00+02:00             Ok  ...        Present               Ok
+15 2019-10-21 08:03:00+02:00             Ok  ...        Present               Ok
+16 2019-10-21 08:07:00+02:00             Ok  ...        Present               Ok
+17 2019-10-21 08:11:00+02:00             Ok  ...        Present               Ok
+18 2019-10-21 08:15:00+02:00             Ok  ...        Present               Ok
+19 2019-10-21 08:19:00+02:00             Ok  ...        Present               Ok
+20 2019-10-21 08:23:00+02:00             Ok  ...        Present               Ok
+21 2019-10-21 08:27:00+02:00             Ok  ...        Present               Ok
+22 2019-10-21 08:31:00+02:00             Ok  ...        Present               Ok
+23 2019-10-21 08:35:00+02:00             Ok  ...        Present               Ok
+24 2019-10-21 08:39:00+02:00             Ok  ...        Present               Ok
+25 2019-10-21 08:43:00+02:00             Ok  ...        Present               Ok
+26 2019-10-21 08:47:00+02:00             Ok  ...        Present               Ok
+27 2019-10-21 08:51:00+02:00             Ok  ...        Present               Ok
+28 2019-10-21 08:55:00+02:00             Ok  ...        Present               Ok
+29 2019-10-21 08:59:00+02:00             Ok  ...        Present               Ok
+30 2019-10-21 09:03:00+02:00             Ok  ...        Present               Ok
+31 2019-10-21 09:07:00+02:00             Ok  ...        Present               Ok
+32 2019-10-21 09:11:00+02:00             Ok  ...        Present               Ok
+33 2019-10-21 09:15:00+02:00             Ok  ...        Present               Ok
+34 2019-10-21 09:19:00+02:00             Ok  ...        Present               Ok
+35 2019-10-21 09:23:00+02:00             Ok  ...        Present               Ok
+36 2019-10-21 09:27:00+02:00             Ok  ...        Present               Ok
+37 2019-10-21 09:31:00+02:00             Ok  ...        Present               Ok
+38 2019-10-21 09:35:00+02:00             Ok  ...        Present               Ok
+39 2019-10-21 09:39:00+02:00             Ok  ...        Present               Ok
+40 2019-10-21 09:43:00+02:00             Ok  ...        Present               Ok
+41 2019-10-21 09:47:00+02:00             Ok  ...        Present               Ok
+42 2019-10-21 09:51:00+02:00             Ok  ...        Present               Ok
+43 2019-10-21 09:55:00+02:00             Ok  ...        Present               Ok
+44 2019-10-21 09:59:00+02:00             Ok  ...        Present               Ok
+45 2019-10-21 10:03:00+02:00             Ok  ...        Present               Ok
+46 2019-10-21 10:07:00+02:00             Ok  ...        Present               Ok
+47 2019-10-21 10:11:00+02:00             Ok  ...        Present               Ok
+48 2019-10-21 10:15:00+02:00             Ok  ...        Present               Ok
+49 2019-10-21 10:19:00+02:00             Ok  ...        Present               Ok
+50 2019-10-21 10:23:00+02:00             Ok  ...        Present               Ok
+51 2019-10-21 10:27:00+02:00             Ok  ...        Present               Ok
+52 2019-10-21 10:31:00+02:00             Ok  ...        Present               Ok
+53 2019-10-21 10:35:00+02:00             Ok  ...        Present               Ok
+54 2019-10-21 10:39:00+02:00             Ok  ...        Present               Ok
+55 2019-10-21 10:43:00+02:00             Ok  ...        Present               Ok
+56 2019-10-21 10:47:00+02:00             Ok  ...        Present               Ok
+57 2019-10-21 10:51:00+02:00             Ok  ...        Present               Ok
+58 2019-10-21 10:55:00+02:00             Ok  ...        Present               Ok
+59 2019-10-21 10:59:00+02:00             Ok  ...        Present               Ok
+
+[60 rows x 33 columns]
+20:16:34 - extract_data_from_plugin: categorical data parsed
+20:16:40 - extract_data_from_plugin: numerical data parsed
+20:16:40 - extract_data_from_plugin: merged data on timestamp
+20:16:40 - extract_data_from_examon_plugins: Confluent data extracted
+20:16:40 - extract_data_from_examon_plugins: Merged Ganglia and Confluent data
+
+saving result on csv file..
+--- DONE --- 
