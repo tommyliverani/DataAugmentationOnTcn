@@ -1,0 +1,28 @@
+------- extract_features.py -------
+unique_id:  21-10-2019_07-00-00
+start_time:  21-10-2019 07:00:00
+stop_time:  21-10-2019 11:00:00
+file_to_write:  ./raw_data/r076c08s03
+aggregation_minutes:  5
+target_node:  r076c08s03
+
+creating examon connection..
+<urllib.request.Request object at 0x2b90b2205198>
+extracting data..
+
+21:46:28 - extract_data_from_examon_plugins: Start
+21:46:28 - extract_data_from_plugin: Start
+plugin_name: ganglia_pub
+node: r076c08s03
+t_start: 21-10-2019 07:00:00
+t_stop: 21-10-2019 11:00:00
+21:46:38 - extract_data_from_plugin: data extracted from Examon
+21:46:38 - extract_data_from_plugin: microseconds and 5 seconds alignment done
+21:46:38 - extract_data_from_plugin: features compacted
+21:46:38 - extract_data_from_plugin: numerical features extracted
+21:46:38 - extract_data_from_plugin: categorical features extracted
+(0, 1)
+-----  -------   --------  ------- --------- -------- ------- -----
+Empty DataFrame
+Columns: [timestamp]
+Index: []

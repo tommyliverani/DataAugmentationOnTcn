@@ -26,7 +26,7 @@ days = 0 if len(sys.argv) < 2 else int(sys.argv[1])
 hours = 3 if len(sys.argv) < 3 else int(sys.argv[2])
 minutes = 0 if len(sys.argv) < 4 else int(sys.argv[3])
 
-target_node = 'r076c08s03' if len(sys.argv) < 5 else sys.argv[4]
+target_node = 'r113c01s01' if len(sys.argv) < 5 else sys.argv[4]
 aggregation_minutes = "5" if len(sys.argv) < 6 else sys.argv[5]
 
 # Fixed parameters

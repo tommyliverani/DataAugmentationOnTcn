@@ -1,0 +1,177 @@
+------- extract_features.py -------
+unique_id:  03-11-2019_07-00-00
+start_time:  03-11-2019 07:00:00
+stop_time:  03-11-2019 11:00:00
+file_to_write:  ./raw_data/r076c08s03
+aggregation_minutes:  5
+target_node:  r076c08s03
+
+creating examon connection..
+<urllib.request.Request object at 0x2b5af1863048>
+extracting data..
+
+00:21:06 - extract_data_from_examon_plugins: Start
+00:21:06 - extract_data_from_plugin: Start
+plugin_name: ganglia_pub
+node: r076c08s03
+t_start: 03-11-2019 07:00:00
+t_stop: 03-11-2019 11:00:00
+00:21:38 - extract_data_from_plugin: data extracted from Examon
+00:21:40 - extract_data_from_plugin: microseconds and 5 seconds alignment done
+00:21:40 - extract_data_from_plugin: features compacted
+00:21:41 - extract_data_from_plugin: numerical features extracted
+00:21:41 - extract_data_from_plugin: categorical features extracted
+(651, 5)
+-----  -------   --------  ------- --------- -------- ------- -----
+                    timestamp  ...                                   os_release
+0   2019-11-03 07:00:00+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+1   2019-11-03 07:00:20+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+2   2019-11-03 07:00:45+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+3   2019-11-03 07:01:20+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+4   2019-11-03 07:01:30+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+5   2019-11-03 07:01:50+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+6   2019-11-03 07:02:00+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+7   2019-11-03 07:02:20+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+8   2019-11-03 07:02:40+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+9   2019-11-03 07:03:00+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+10  2019-11-03 07:03:20+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+11  2019-11-03 07:04:00+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+12  2019-11-03 07:04:20+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+13  2019-11-03 07:04:35+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+14  2019-11-03 07:04:40+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+15  2019-11-03 07:04:50+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+16  2019-11-03 07:05:20+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+17  2019-11-03 07:06:00+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+18  2019-11-03 07:06:20+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+19  2019-11-03 07:06:40+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+20  2019-11-03 07:07:25+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+21  2019-11-03 07:07:30+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+22  2019-11-03 07:07:50+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+23  2019-11-03 07:08:00+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+24  2019-11-03 07:08:20+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+25  2019-11-03 07:08:45+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+26  2019-11-03 07:09:05+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+27  2019-11-03 07:09:20+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+28  2019-11-03 07:09:45+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+29  2019-11-03 07:10:00+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+..                        ...  ...                                          ...
+621 2019-11-03 10:47:30+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+622 2019-11-03 10:47:45+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+623 2019-11-03 10:48:20+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+624 2019-11-03 10:48:30+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+625 2019-11-03 10:48:40+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+626 2019-11-03 10:49:00+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+627 2019-11-03 10:49:40+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+628 2019-11-03 10:50:05+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+629 2019-11-03 10:50:25+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+630 2019-11-03 10:50:30+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+631 2019-11-03 10:50:45+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+632 2019-11-03 10:51:05+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+633 2019-11-03 10:51:30+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+634 2019-11-03 10:51:40+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+635 2019-11-03 10:52:00+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+636 2019-11-03 10:52:20+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+637 2019-11-03 10:52:40+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+638 2019-11-03 10:53:00+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+639 2019-11-03 10:53:30+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+640 2019-11-03 10:53:40+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+641 2019-11-03 10:54:05+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+642 2019-11-03 10:54:20+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+643 2019-11-03 10:54:30+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+644 2019-11-03 10:54:40+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+645 2019-11-03 10:55:00+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+646 2019-11-03 10:55:30+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+647 2019-11-03 10:55:40+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+648 2019-11-03 10:56:00+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+649 2019-11-03 10:56:20+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+650 2019-11-03 10:56:40+01:00  ...  3.10.0-327.36.3.el7.xppsl_1.5.1.4151.x86_64
+
+[651 rows x 5 columns]
+00:21:44 - extract_data_from_plugin: categorical data parsed
+00:21:55 - extract_data_from_plugin: numerical data parsed
+00:21:55 - extract_data_from_plugin: merged data on timestamp
+00:21:55 - extract_data_from_examon_plugins: Ganglia data extracted
+00:21:55 - extract_data_from_plugin: Start
+plugin_name: confluent_pub
+node: r076c08s03
+t_start: 03-11-2019 07:00:00
+t_stop: 03-11-2019 11:00:00
+00:22:25 - extract_data_from_plugin: data extracted from Examon
+00:22:33 - extract_data_from_plugin: microseconds and 5 seconds alignment done
+00:22:33 - extract_data_from_plugin: features compacted
+00:22:33 - extract_data_from_plugin: numerical features extracted
+00:22:33 - extract_data_from_plugin: categorical features extracted
+(676, 7)
+-----  -------   --------  ------- --------- -------- ------- -----
+                    timestamp HDD_0_Status  ... PS1_Status PS2_Status
+0   2019-11-03 07:00:00+01:00      Present  ...    Present    Present
+1   2019-11-03 07:00:20+01:00      Present  ...    Present    Present
+2   2019-11-03 07:00:40+01:00      Present  ...    Present    Present
+3   2019-11-03 07:01:00+01:00      Present  ...    Present    Present
+4   2019-11-03 07:01:20+01:00      Present  ...    Present    Present
+5   2019-11-03 07:01:40+01:00      Present  ...    Present    Present
+6   2019-11-03 07:02:00+01:00      Present  ...    Present    Present
+7   2019-11-03 07:02:20+01:00      Present  ...    Present    Present
+8   2019-11-03 07:02:40+01:00      Present  ...    Present    Present
+9   2019-11-03 07:03:00+01:00      Present  ...    Present    Present
+10  2019-11-03 07:03:20+01:00      Present  ...    Present    Present
+11  2019-11-03 07:03:40+01:00      Present  ...    Present    Present
+12  2019-11-03 07:04:00+01:00      Present  ...    Present    Present
+13  2019-11-03 07:04:20+01:00      Present  ...    Present    Present
+14  2019-11-03 07:04:40+01:00      Present  ...    Present    Present
+15  2019-11-03 07:05:00+01:00      Present  ...    Present    Present
+16  2019-11-03 07:05:20+01:00      Present  ...    Present    Present
+17  2019-11-03 07:05:40+01:00      Present  ...    Present    Present
+18  2019-11-03 07:06:00+01:00      Present  ...    Present    Present
+19  2019-11-03 07:06:20+01:00      Present  ...    Present    Present
+20  2019-11-03 07:06:40+01:00      Present  ...    Present    Present
+21  2019-11-03 07:07:00+01:00      Present  ...    Present    Present
+22  2019-11-03 07:07:20+01:00      Present  ...    Present    Present
+23  2019-11-03 07:07:40+01:00      Present  ...    Present    Present
+24  2019-11-03 07:08:00+01:00      Present  ...    Present    Present
+25  2019-11-03 07:08:20+01:00      Present  ...    Present    Present
+26  2019-11-03 07:08:40+01:00      Present  ...    Present    Present
+27  2019-11-03 07:09:00+01:00      Present  ...    Present    Present
+28  2019-11-03 07:09:20+01:00      Present  ...    Present    Present
+29  2019-11-03 07:09:40+01:00      Present  ...    Present    Present
+..                        ...          ...  ...        ...        ...
+646 2019-11-03 10:50:00+01:00      Present  ...    Present    Present
+647 2019-11-03 10:50:20+01:00      Present  ...    Present    Present
+648 2019-11-03 10:50:40+01:00      Present  ...    Present    Present
+649 2019-11-03 10:51:00+01:00      Present  ...    Present    Present
+650 2019-11-03 10:51:20+01:00      Present  ...    Present    Present
+651 2019-11-03 10:51:40+01:00      Present  ...    Present    Present
+652 2019-11-03 10:52:00+01:00      Present  ...    Present    Present
+653 2019-11-03 10:52:20+01:00      Present  ...    Present    Present
+654 2019-11-03 10:52:40+01:00      Present  ...    Present    Present
+655 2019-11-03 10:53:00+01:00      Present  ...    Present    Present
+656 2019-11-03 10:53:20+01:00      Present  ...    Present    Present
+657 2019-11-03 10:53:40+01:00      Present  ...    Present    Present
+658 2019-11-03 10:54:00+01:00      Present  ...    Present    Present
+659 2019-11-03 10:54:20+01:00      Present  ...    Present    Present
+660 2019-11-03 10:54:40+01:00      Present  ...    Present    Present
+661 2019-11-03 10:55:00+01:00      Present  ...    Present    Present
+662 2019-11-03 10:55:20+01:00      Present  ...    Present    Present
+663 2019-11-03 10:55:40+01:00      Present  ...    Present    Present
+664 2019-11-03 10:56:00+01:00      Present  ...    Present    Present
+665 2019-11-03 10:56:20+01:00      Present  ...    Present    Present
+666 2019-11-03 10:56:40+01:00      Present  ...    Present    Present
+667 2019-11-03 10:57:00+01:00      Present  ...    Present    Present
+668 2019-11-03 10:57:20+01:00      Present  ...    Present    Present
+669 2019-11-03 10:57:40+01:00      Present  ...    Present    Present
+670 2019-11-03 10:58:00+01:00      Present  ...    Present    Present
+671 2019-11-03 10:58:20+01:00      Present  ...    Present    Present
+672 2019-11-03 10:58:40+01:00      Present  ...    Present    Present
+673 2019-11-03 10:59:00+01:00      Present  ...    Present    Present
+674 2019-11-03 10:59:20+01:00      Present  ...    Present    Present
+675 2019-11-03 10:59:40+01:00      Present  ...    Present    Present
+
+[676 rows x 7 columns]
+00:22:37 - extract_data_from_plugin: categorical data parsed
+00:22:48 - extract_data_from_plugin: numerical data parsed
+00:22:48 - extract_data_from_plugin: merged data on timestamp
+00:22:48 - extract_data_from_examon_plugins: Confluent data extracted
+00:22:48 - extract_data_from_examon_plugins: Merged Ganglia and Confluent data
+
+saving result on csv file..
+--- DONE --- 
