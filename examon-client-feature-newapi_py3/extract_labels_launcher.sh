@@ -17,8 +17,8 @@ echo ""
 
 node=$1
 
-t_start="18-10-2019_10:00:00"
-t_stop="11-01-2020_06:36:00"
+t_start="1-10-2019_10:00:00"
+t_stop="20-01-2020_10:10:00"
 
 python extract_labels.py "$t_start" "$t_stop" "$@" > "./out/node_${node}_labels.txt"
 

@@ -1,0 +1,14 @@
+------- extract_labels.py -------
+start_time:  18-10-2019 10:00:00
+stop_time:  11-11-2019 10:10:00
+aggregation_minutes:  5
+file_to_write:  ./raw_data/r169c03s01
+target_node:  r169c03s01
+
+creating examon connection..
+<urllib.request.Request object at 0x7f28daa87048>
+extracting labels..
+
+
+saving result on csv file..
+--- DONE --- 

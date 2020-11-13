@@ -13,8 +13,8 @@ from my_lib import nagios_sampling as ns
 
 # Function call arguments
 t_start = '18-10-2019 10:00:00' if len(sys.argv) < 2 else sys.argv[1].replace("_", " ")
-t_stop = '11-01-2020 06:36:00' if len(sys.argv) < 3 else sys.argv[2].replace("_", " ")
-target_node = 'r089c13s04' if len(sys.argv) < 4 else sys.argv[3]
+t_stop = '11-11-2019 10:00:00' if len(sys.argv) < 3 else sys.argv[2].replace("_", " ")
+target_node = 'r076c08s03' if len(sys.argv) < 4 else sys.argv[3]
 aggregation_minutes = 5 if len(sys.argv) < 5 else int(sys.argv[4])
 write_path = './raw_data/{}'.format(target_node) if len(sys.argv) < 6 else sys.argv[5]
 
